@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(234, 231, 226, 0.655);
+}
+
+form{
+    
+    width:900px;
+    margin:auto;
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(232, 224, 224, 0.952);
+}
+
+form > div{
+  width: 700px;
+  margin: 10px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+input[type="text"],input[type="email"],input[type="number"],input[type="password"],textarea,select{
+    width:80%;
+    padding: 13px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    /* When we click on the input area a black outline will appear, we can do outline:none to remove this behaviour  */
+
+    font-weight:600 ;
+}
+
+input[type="submit"]{
+    /* Input is a inline element we need to set diplay to block inorder to use margin:auto */
+    display: block;
+    width:150px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius:20px ;
+    border: none;
+    font-size: large;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color:rgba(63, 47, 235, 0.888) ;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(11, 45, 215, 0.943);
+}
+
+.check{
+    border: 2px solid rgba(0, 0, 0, 0.354);
+    padding:7px;
+    border-radius: 3px;
+    
+}
